@@ -1,11 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Box Model</title>
+    <style>
+        h1 {
+
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-inline-start: 1000px;
+        }
+
+        img {
+
+            margin-left: 300px;
+        }
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: burlywood;
+        }
+
+        .contenido {
+
+            
+            margin: 5px;
+            padding: 5px;
+            color: darkslategray;
+            display: flex;
+            justify-content: start;
+            flex-direction: column;
+
+        }
+
+        .rounded {
+
+            border-radius: 50px;
+        }
+
+        table {
+            color: blueviolet;
+            display: flex;
+            justify-content:center;
+
+        }
+    </style>
+
 </head>
+
 <body>
-    
+
+    <h1>Otto</h1>
+<div style="display:flex;">
+
+
+    <img src="img/gato_perfil.jpg" class="rounded" width="400" height="500">
+    <div class="contenido">
+    <div>
+        Nick: Ot
+    </div>
+    <div >
+        Edad: 5 años
+    </div>
+    <div >
+        Ciudad de origen: Almeria
+    </div>
+</div>
+</div>
+
+    <table>
+
+        <tr>
+            <th>Top 5</th>
+        </tr>
+        <tr>
+            <th>Hobbie:</th>
+            <td>Comer plantas del salón</th>
+        </tr>
+        <tr>
+            <th>Actividades:</th>
+            <td>dormir en el sofá</td>
+        </tr>
+        <tr>
+            <th>Comida:</th>
+            <td>fresas</td>
+        </tr>
+        <tr>
+            <th>Lugar de la casa:</th>
+            <td>cocina</td>
+        </tr>
+
+        <tr>
+            <th>Palabra:</th><td>Guapo</td>
+        </tr>
+
+    </table>
+
+
+    <ul>
+        <li>#perfil</li>
+        <li>#hobbies</li>
+        <li>#interactivo</li>
+        <li>#creativo</li>
+        
+    </ul>
+
+
+
 </body>
+
 </html>
