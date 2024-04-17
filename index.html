@@ -9,12 +9,14 @@
         h1 {
 
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            margin-inline-start: 1000px;
+            color: darkslategray;
+            margin-inline-start: 580px;
         }
 
         img {
 
-            margin-left: 300px;
+            margin-left: 500px;
+
         }
 
         body {
@@ -24,31 +26,38 @@
 
         .contenido {
 
-            
-            margin: 5px;
-            padding: 5px;
+
+            margin: 10px;
+            padding: 10px;
             color: darkslategray;
-            display: flex;
-            justify-content: start;
             flex-direction: column;
+            margin-bottom: 20px;
+            display: inline-block;
 
         }
 
         .rounded {
 
-            border-radius: 50px;
+            border-radius: 500px;
+            border-style: double;
+            border-width: 20px;
+            color: blanchedalmond;
         }
 
         table {
-            color: blueviolet;
+            color: darkslategray;
             display: flex;
-            justify-content:center;
+            justify-content: center;
+            margin-left: 110px;
+            margin-top: 70px;
+
 
         }
 
-        .contenido{
-            margin-bottom: 20px;
-            display: inline-block;
+        .img2{
+            width: 500px;
+            height: 500px;
+            display:inline-flex;
         }
     </style>
 
@@ -57,28 +66,31 @@
 <body>
 
     <h1>Otto</h1>
-<div style="display:flex;">
+    <div style="display:flex;">
 
 
-    <img src="img/gato_perfil.jpg" class="rounded" width="400" height="500">
-    <div class="contenido">
-    <div>
-        Nick: Ot
+        <img src="img/gato_perfil.jpg" class="rounded" width="200" height="250">
+
+        <div class="contenido">
+            <div>
+
+                <th>Nick:</th> Ot
+
+            </div>
+            <div>
+                Edad: 5 años
+            </div>
+            <div>
+                Ciudad de origen: Almeria
+            </div>
+        </div>
     </div>
-    <div >
-        Edad: 5 años
-    </div>
-    <div >
-        Ciudad de origen: Almeria
-    </div>
-</div>
-</div>
+
+
 
     <table>
 
-        <tr>
-            <th>Top 5</th>
-        </tr>
+
         <tr>
             <th>Hobbie:</th>
             <td>Comer plantas del salón</th>
@@ -97,20 +109,39 @@
         </tr>
 
         <tr>
-            <th>Palabra:</th><td>Guapo</td>
+            <th>Palabra:</th>
+            <td>Guapo</td>
         </tr>
 
     </table>
 
- 
-    <ul style="display: inline-flex;">
-        <li>#perfil</li>
-        <li>#hobbies</li>
-        <li>#interactivo</li>
-        <li>#creativo</li>
-        
+
+
+
+
+    <div class="img2">
+
+        <img src="img/otto1.jpg">
+        <img src="img/otto2.jpg">
+        <img src="img/otto3.jpg">
+
+
+
+
+
+    </div>
+
+
+
+    <ul style="display: inline-flex; display: flex; justify-content: center;">
+
+        #perfil
+        #hobbies
+        #interactivo
+        #creativo
+
     </ul>
-</div>
+    </div>
 
 
 </body>
