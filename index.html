@@ -4,69 +4,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Box Model</title>
-    <style>
-        h1 {
-
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            color: darkslategray;
-            margin-inline-start: 580px;
-        }
-
-        img {
-
-            margin-left: 500px;
-
-        }
-
-        body {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            background-color: burlywood;
-        }
-
-        .contenido {
-
-
-            margin: 10px;
-            padding: 10px;
-            color: darkslategray;
-            flex-direction: column;
-            margin-bottom: 20px;
-            display: inline-block;
-
-        }
-
-        .rounded {
-
-            border-radius: 500px;
-            border-style: double;
-            border-width: 20px;
-            color: blanchedalmond;
-        }
-
-        table {
-            color: darkslategray;
-            display: flex;
-            justify-content: center;
-            margin-left: 110px;
-            margin-top: 70px;
-
-
-        }
-
-        .img2{
-            width: 500px;
-            height: 500px;
-            display:inline-flex;
-        }
-    </style>
+    <title>Perfil de usuario</title>
+    <link rel="stylesheet" type=”text/css” href="mystyle.css">
 
 </head>
+<style>
+    h1 {
 
-<body>
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: darkslategray;
+        margin-inline-start: 580px;
+    }
+
+    img {
+
+        margin-left: 500px;
+
+    }
+
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: burlywood;
+    }
+
+    .contenido {
+
+
+        margin: 10px;
+        padding: 10px;
+        color: darkslategray;
+        flex-direction: column;
+        margin-bottom: 20px;
+        display: inline-block;
+
+    }
+
+    .rounded {
+
+        border-radius: 500px;
+        border-style: double;
+        border-width: 20px;
+        color: blanchedalmond;
+    }
+
+    table {
+        color: darkslategray;
+        display: flex;
+        justify-content: center;
+        margin-left: 110px;
+        margin-top: 70px;
+
+
+    }
+
+    .imagenes {
+
+        display: inline-flex;
+
+        width: 32%;
+
+        object-fit: cover;
+
+        border: 2px solid yellow;
+
+    }
+</style>
+<div>
 
     <h1>Otto</h1>
-    <div style="display:flex;">
+    <div style=" display:flex;">
 
 
         <img src="img/gato_perfil.jpg" class="rounded" width="200" height="250">
@@ -117,17 +123,41 @@
 
 
 
+    <div class="imagenes">
+
+        <div>
+
+            <img src="img/otto1.jpg">
+            <img src="img/otto2.jpg">
+            <img src="img/otto3.jpg">
 
 
-    <div class="img2">
+        </div>
+        <div>
 
-        <img src="img/otto1.jpg">
-        <img src="img/otto2.jpg">
-        <img src="img/otto3.jpg">
+            <img src="img/otto4.jpg">
+            <img src="img/otto5.jpg">
+            <img src="img/otto6.jpg">
 
 
+        </div>
+
+        <div>
+
+            <img src="img/otto7.jpg">
+            <img src="img/otto8.jpg">
+            <img src="img/otto9.jpg">
 
 
+        </div>
+
+        <div>
+
+            <img src="img/otto10.jpg">
+            <img src="img/otto11.jpg">
+            <img src="img/otto12.jpg">
+
+        </div>
 
     </div>
 
@@ -141,7 +171,7 @@
         #creativo
 
     </ul>
-    </div>
+</div>
 
 
 </body>
