@@ -1,27 +1,75 @@
-h1 {
-
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: darkslategray;
-    margin-inline-start: 580px;
-}
-
-img {
-
-    margin-left: 500px;
-
-}
-
 body {
+
+    background: rgb(255, 255, 255);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: burlywood;
+    color: white;
+    min-height: 100vh;
+    line-height: 1.6;
+    background-image: url('/img/hojas.jpg');
+    /*  background-image: url('img/fondo.jpg');*/
+
+
 }
 
-.contenido {
 
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.promo{
+
+    padding-top: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 0%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+#hero {
+    min-height: 100vh;
+    position: relative;
+}
+
+video {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.capa{
+
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+
+.rounded {
+
+    text-align: center;
+}
+
+
+
+.info {
 
     margin: 10px;
     padding: 10px;
-    color: darkslategray;
+    color: white;
     flex-direction: column;
     margin-bottom: 20px;
     display: inline-block;
@@ -32,25 +80,71 @@ body {
 
     border-radius: 500px;
     border-style: double;
-    border-width: 20px;
-    color: blanchedalmond;
+    border-width: 10px;
+    color: dimgrey;
+}
+
+.fondo {
+
+
+    margin: 0px 100px 0px 0px;
+
 }
 
 table {
-    color: darkslategray;
+
+    color: white;
     display: flex;
     justify-content: center;
     margin-left: 110px;
     margin-top: 70px;
 
+}
+
+.contenedor {
+
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 200px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: 100%;
+    /*flexbox
+    display: flex;
+    justify-content: center;
+    */
 
 }
 
-*imagenes {
 
-    
-    width: 32%;
-    object-fit: cover;
-    border: 2px solid yellow;
+.contenedor-conciertos {
+    /* flexbox
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    */
+    /*grid*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+
+}
+
+.card {
+
+    border-radius: 10px;
+    min-height: 260px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+
+    /* flexbox
+    width: 33.33%;
+    */
+
 
 }
