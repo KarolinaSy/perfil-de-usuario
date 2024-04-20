@@ -22,7 +22,7 @@ body {
 
 .promo{
 
-    padding-top: 400px;
+    padding-top: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -103,7 +103,7 @@ table {
 
 .contenedor {
 
-    width: 100%;
+    width: 80%;
     max-width: 1200px;
     margin: auto;
     padding: 200px 0px 0px 0px;
@@ -147,4 +147,9 @@ table {
     */
 
 
+}
+
+.etiquetas{
+
+    padding: 50px;
 }
