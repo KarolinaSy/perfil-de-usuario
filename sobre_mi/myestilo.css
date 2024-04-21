@@ -1,0 +1,62 @@
+body {
+
+    background: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    min-height: 50vh;
+    line-height: 1.6;
+    background-image: url('/img/hojas.jpg');
+
+}
+
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+h2{
+
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+table {
+
+    margin: 50px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+
+}
+
+header {
+
+    background-color: #050505;
+    text-align: center;
+    padding: 25px;
+}
+
+nav a {
+
+    display: inline-block;
+    text-decoration: none;
+    color: #959191;
+    margin: 0 60px;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+
+nav a:hover {
+
+    background-color: #ffffff;
+    color: #000000;
+}
