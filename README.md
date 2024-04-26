@@ -1,4 +1,4 @@
-# Crear una página web aplicando los conceptos viste hasta ahora y de Box-Model.
+# Crear una página web aplicando los conceptos de Box-Model.
 
 Elije un personaje famoso, amigo, tu mismo o incluso tu mascota, y haz una página de su perfil.
 Utiliza el box model para diseñar y organizar los elementos de la página. 
